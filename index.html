@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="modal">
+        <div id="modal-content">
+            <h3 class="modal-heading">Contact info</h3>
+            <div class="modal-contact">
+                <p class="modal-type">Email</p>
+                <p id="modal-email">danielkolter157@gmail.com</p>
+                <img id="copy-button" src="copy.svg">
+                <img id="copy-done" src="done.svg">
+            </div>
+            <a class="fiverr-link" href="https://fiverr.com/coding_owl">
+                <img class="fiverr-img" src="fiverr.png">
+                <p class="fiverr-account">coding_owl</p>
+            </a>
+        </div>
+    </div>
+    <div class="parallax">
+        <label id="hamburger">
+            <input type="checkbox" id="navigation-check" />
+            <span class="hamburger-span"></span>
+            <span class="hamburger-span"></span>
+            <span class="hamburger-span"></span>
+        </label>
+        <h1>Code<br>the future</h1>
+        <button id="contact-button">Contact me</button>
+        <div class="smooth-overlay"></div>
+    </div>
+    <h2 class="capabilities-heading">My capabilities</h2>
+    <div class="capabilities">
+        <div class="capability">
+            <h3>Rust</h3>
+            <img class="ferris-img" src="ferris.png">
+            <p>Having completed many projects in it, rust has grown to be my favorite programming language with its
+                flexibility and simplicity. When it comes to performance critical applications like webservers,
+                backends or large data sets, rust is definitely my first choice</p>
+        </div>
+        <div class="capability">
+            <h3>Frontend</h3>
+            <img class="frontend-img" src="frontend.png">
+            <p>Besides backend, I also design websites and make them fully functional using pure html, css and
+                javascript to create a smooth browsing experience. I am also experienced at security features like
+                authentification, sessions, hashing and captchas</p>
+        </div>
+        <div class="capability">
+            <h3>Micropython</h3>
+            <img class="micropython-img" src="micropython.png">
+            <p>Coding in micropython has always fascinated me, because it's one of the only concepts
+                in programming where you can immediately observe your code in the real world controlling
+                motors, led strips, displays and other cool devices</p>
+        </div>
+    </div>
+    <h2 class="review-heading">Client reviews</h2>
+    <div class="reviews">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
