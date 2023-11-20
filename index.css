@@ -23,6 +23,7 @@ html {
     border: 1px solid #9191ff;
     padding: 30px;
     width: min(80%, 800px);
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,6 +199,7 @@ h2 {
     border: 2px solid #9191ff;
     border-radius: 10px;
     width: min(80%, 800px);
+    max-width: 90%;
     padding: 20px;
     background: #9191ff22;
 }
@@ -235,6 +237,7 @@ h2 {
     flex-direction: column;
     color: white;
     width: min(80%, 800px);
+    max-width: 90%;
     border: 2px solid #d7478e;
     padding: 20px;
     border-radius: 10px;
