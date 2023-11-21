@@ -4,11 +4,14 @@ const copyDone = document.getElementById("copy-done");
 const contactButton = document.getElementById("contact-button");
 const modal = document.getElementById("modal");
 const modalContent = document.getElementById("modal-content");
+const navigationCheck = document.getElementById("navigation-check");
+const navigation = document.getElementById("navigation");
 
 copyButton.addEventListener("click", copyEmailToClipboard);
 contactButton.addEventListener("click", () => modal.style.display = "flex");
 modal.addEventListener("click", () => modal.style.display = "none");
 modalContent.addEventListener("click", (event) => event.stopPropagation());
+navigationCheck.addEventListener("click", () => navigation.classList.toggle("navigation-open"));
 
 function copyEmailToClipboard() {
     navigator.clipboard.writeText(modalEmail.innerText);
