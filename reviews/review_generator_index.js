@@ -5,11 +5,19 @@ const copyDone = document.getElementById("copy-done");
 const contactButton = document.getElementById("contact-button");
 const modal = document.getElementById("modal");
 const modalContent = document.getElementById("modal-content");
+const navigationCheck = document.getElementById("navigation-check");
+const navigation = document.getElementById("navigation");
+const scrollDown = document.getElementById("scroll-down-button");
+const capabilitiesHeading = document.getElementById("capabilities-heading");
 
 copyButton.addEventListener("click", copyEmailToClipboard);
 contactButton.addEventListener("click", () => modal.style.display = "flex");
 modal.addEventListener("click", () => modal.style.display = "none");
 modalContent.addEventListener("click", (event) => event.stopPropagation());
+navigationCheck.addEventListener("click", () => navigation.classList.toggle("navigation-open"));
+scrollDown.addEventListener("click", () => capabilitiesHeading.scrollIntoView({
+    "behavior": "smooth",
+}));
 
 function fetchReviews() {
     fetch("https://fiverr-api.vercel.app/coding_owl/reviews?limit=10", { mode: "cors" })
