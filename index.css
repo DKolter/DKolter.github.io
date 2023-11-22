@@ -177,7 +177,7 @@ html {
 #scroll-down-button {
     position: absolute;
     right: 0;
-    bottom: 80px;
+    bottom: 77px;
     transform: translateX(-50%);
     cursor: pointer;
 }
