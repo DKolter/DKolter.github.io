@@ -25,11 +25,3 @@ function copyEmailToClipboard() {
     void copyDone.offsetWidth;
     copyDone.classList.add("copy-done-animation");
 }
-
-function insertReviews() {
-    fetch("reviews/reviews.html")
-        .then(response => response.text())
-        .then(text => reviews.innerHTML = text);
-}
-
-insertReviews();
