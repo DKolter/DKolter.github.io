@@ -8,6 +8,7 @@ const navigationCheck = document.getElementById("navigation-check");
 const navigation = document.getElementById("navigation");
 const scrollDown = document.getElementById("scroll-down-button");
 const capabilitiesHeading = document.getElementById("capabilities-heading");
+const reviews = document.getElementById("reviews");
 
 copyButton.addEventListener("click", copyEmailToClipboard);
 contactButton.addEventListener("click", () => modal.style.display = "flex");
@@ -24,3 +25,11 @@ function copyEmailToClipboard() {
     void copyDone.offsetWidth;
     copyDone.classList.add("copy-done-animation");
 }
+
+function insertReviews() {
+    fetch("reviews/reviews.html")
+        .then(response => response.text())
+        .then(text => reviews.innerHTML = text);
+}
+
+insertReviews();

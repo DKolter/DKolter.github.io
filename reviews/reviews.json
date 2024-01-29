@@ -1,0 +1,177 @@
+{
+    "buying_reviews": {
+        "reviews": [
+            {
+                "id": "6596898fde307a0001ee2aea",
+                "comment": "Excellent coder. Thank you, Daniel.",
+                "comment_language": "en",
+                "username": "jk_rooka",
+                "reviewer_country_code": "CZ",
+                "created_at": "2024-01-04T10:35:31",
+                "value": 5.0,
+                "reviewer_country": "Czech Republic",
+                "encrypted_order_id": "FO617D989C382",
+                "score": 0.0,
+                "reviewer_industry": [],
+                "repeat_buyer": false,
+                "is_business": true,
+                "gig_id": 321014816,
+                "gig_slug": "program-in-rust-for-you",
+                "gig_category": 10,
+                "gig_sub_category": 140,
+                "gig_nested_sub_category": 2703,
+                "relevancy_score": 0.0,
+                "price_range_start": 200,
+                "price_range_end": 400,
+                "reviews_count_as_buyer": 1,
+                "is_cancelled_order": false
+            },
+            {
+                "id": "6582abb512ef4a0001cb3e33",
+                "comment": "Happy with the services",
+                "comment_language": "en",
+                "username": "nelis_os",
+                "reviewer_country_code": "NL",
+                "created_at": "2023-12-20T14:21:44",
+                "value": 5.0,
+                "reviewer_country": "Netherlands",
+                "encrypted_order_id": "FO417C85F0384",
+                "score": 0.0,
+                "repeat_buyer": true,
+                "is_business": false,
+                "gig_id": 321014816,
+                "gig_slug": "program-in-rust-for-you",
+                "gig_category": 10,
+                "gig_sub_category": 140,
+                "gig_nested_sub_category": 2703,
+                "relevancy_score": 0.0,
+                "price_range_start": 200,
+                "price_range_end": 400,
+                "reviews_count_as_buyer": 89,
+                "is_cancelled_order": false
+            },
+            {
+                "id": "6579d22f0f30da0001e92878",
+                "comment": "Seller is delivery high quality code, is very responsive and great in bringing the project to a higher level.",
+                "comment_language": "en",
+                "username": "nelis_os",
+                "reviewer_country_code": "NL",
+                "created_at": "2023-12-13T16:09:39",
+                "value": 5.0,
+                "reviewer_country": "Netherlands",
+                "encrypted_order_id": "FO8239FA9A5C4",
+                "score": 0.0,
+                "repeat_buyer": true,
+                "is_business": false,
+                "gig_id": 321014816,
+                "gig_slug": "program-in-rust-for-you",
+                "gig_category": 10,
+                "gig_sub_category": 140,
+                "gig_nested_sub_category": 2703,
+                "relevancy_score": 0.0,
+                "price_range_start": 200,
+                "price_range_end": 400,
+                "reviews_count_as_buyer": 89,
+                "is_cancelled_order": false
+            },
+            {
+                "id": "656e198d6ca1610001908d50",
+                "comment": "Would recommend this seller. Delivers quality code, good logging and comments to make things clear and transparent. Comes up with ideas of his own to contribute to the quality of the project ",
+                "comment_language": "en",
+                "username": "nelis_os",
+                "reviewer_country_code": "NL",
+                "created_at": "2023-12-04T20:31:52",
+                "value": 5.0,
+                "reviewer_country": "Netherlands",
+                "encrypted_order_id": "FO61D9E34E204",
+                "score": 0.44659573,
+                "repeat_buyer": true,
+                "is_business": false,
+                "gig_id": 321014816,
+                "gig_slug": "program-in-rust-for-you",
+                "gig_category": 10,
+                "gig_sub_category": 140,
+                "gig_nested_sub_category": 2703,
+                "relevancy_score": 0.5,
+                "price_range_start": 600,
+                "price_range_end": 800,
+                "reviews_count_as_buyer": 89,
+                "is_cancelled_order": false,
+                "original_relevancy_score": 0.5
+            },
+            {
+                "id": "6568c3fdf32ad80001514f25",
+                "comment": "perfect work. very fast communication. everything is working as it should be!",
+                "comment_language": "en",
+                "username": "smartquadrat",
+                "reviewer_country_code": "DE",
+                "created_at": "2023-11-30T17:22:28",
+                "value": 5.0,
+                "reviewer_country": "Germany",
+                "encrypted_order_id": "FO829678BF546",
+                "score": 0.0,
+                "reviewer_industry": [
+                    "technology"
+                ],
+                "repeat_buyer": false,
+                "is_business": false,
+                "gig_id": 321067153,
+                "gig_slug": "program-in-python-or-micropython-for-you",
+                "gig_category": 10,
+                "gig_sub_category": 140,
+                "gig_nested_sub_category": 2703,
+                "relevancy_score": 0.0,
+                "price_range_end": 50,
+                "reviews_count_as_buyer": 1,
+                "is_cancelled_order": false
+            }
+        ],
+        "has_next": true,
+        "total_count": 20,
+        "reviews_as_seller": true,
+        "filters_counters": {
+            "work_sample": 0,
+            "business": 1
+        },
+        "user_id": 110332964,
+        "seller_username": "coding_owl",
+        "star_summary": {
+            "communication_valuation": 5.0,
+            "recommend_valuation": 5.0,
+            "service_valuation": 5.0
+        },
+        "breakdown": [
+            {
+                "average_valuation_value": 1,
+                "count": 0
+            },
+            {
+                "average_valuation_value": 2,
+                "count": 0
+            },
+            {
+                "average_valuation_value": 3,
+                "count": 0
+            },
+            {
+                "average_valuation_value": 4,
+                "count": 0
+            },
+            {
+                "average_valuation_value": 5,
+                "count": 20
+            }
+        ],
+        "average_valuation": 5.0
+    },
+    "selling_reviews": {
+        "user_id": 110332964,
+        "reviews": [],
+        "total_count": null,
+        "average_valuation": null,
+        "reviews_as_seller": false,
+        "has_next": false
+    },
+    "userId": 110332964,
+    "responsive": null
+}
